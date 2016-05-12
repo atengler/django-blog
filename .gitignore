@@ -1,0 +1,8 @@
+# Python compiled files
+*.pyc
+# Vim swap files
+.*.swp
+# Test DB
+db.sqlite3
+# Compressed static files
+static/CACHE
