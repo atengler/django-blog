@@ -41,7 +41,7 @@ COMPRESS_PRECOMPILERS = (
 )
 
 COMPRESS_ENABLED = True
-COMPRESS_OFFLINE = False
+COMPRESS_OFFLINE = True
 
 # Application definition
 

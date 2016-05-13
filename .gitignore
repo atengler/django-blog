@@ -6,3 +6,7 @@
 db.sqlite3
 # Compressed static files
 static/CACHE
+# Admin static files
+static/admin
+# Development scripts
+refresh_skin.sh

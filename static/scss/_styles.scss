@@ -1,0 +1,29 @@
+
+// Navbar
+
+.navbar-default {
+  background-image: url('/static/img/brand.png');
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 0px;
+  font-family: 'Amatic SC';
+  font-weight: 400;
+  font-size: 44px;
+  .navbar-brand {
+    font-size: 44px;
+    padding: 8px 15px;
+    line-height: 80px;
+    span:first-child {
+      font-weight: 700;
+      color: #444;
+    }
+  }
+  .navbar-nav > li > a {
+    padding: 8px 15px;
+    line-height: 80px;
+  }
+  .dropdown-menu > li > a {
+    font-size: 28px;
+  }
+}
+

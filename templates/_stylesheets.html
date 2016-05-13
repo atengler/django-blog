@@ -1,6 +1,9 @@
 {% load compress staticfiles %}
 
+<link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
 {% compress css %}
-<link href='{% static "bootstrap/stylesheets/_bootstrap.scss"%}' type='text/x-scss' media='screen' rel='stylesheet' />
+<link href='{% static "bootstrap/stylesheets/_bootstrap.scss" %}' type='text/x-scss' media='screen' rel='stylesheet' />
+<link href='{% static "scss/tuxblog.scss" %}' type='text/x-scss' media='screen' rel='stylesheet' />
 {% endcompress %}
 
